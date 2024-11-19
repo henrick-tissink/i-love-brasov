@@ -8,7 +8,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://ilovebrasov.com",
+  site: "https://www.ilovebrasov.com",
   output: "static",
   integrations: [react(), tailwind(), sitemap()],
 });
